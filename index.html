@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+    <div id="imagemFundoContainer">
+        <img id="imagemFundo" src="./imagens/57c1c26fc0b812.webp" alt="">
+
+        <div id="imagemPokemonContainer">
+            <img id="imagemPokemon"  src="" alt="">
+        </div>
+        
+        <div id="textoContainer">
+            <h3 id="nomeDoPokemon"></h3>
+            <p id="classeDoPokemon"></p>
+        </div>
+        <div id="buttonContainer">
+            <button onclick="sorteioPok()">Clique Aqui</button>
+            
+        </div>
+
+    </div>
+
+    <div id="formContainer">
+        <input id="nomeParaPesquisa" type="text" placeholder="Nome do Pokemon">
+        <button id="pesquisa" type="submit">
+            <div class="fa-solid fa-magnifying-glass"></div>
+        </button>
+    </div>
+    <p id="erro"></p>
+    <script src="./js/sorteio.js"></script>
+    <script src="./js/pesquisa.js"></script>
+</body>
+</html>
